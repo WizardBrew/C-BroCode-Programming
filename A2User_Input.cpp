@@ -7,30 +7,15 @@ using std::endl;
 
 
 int main(){
-        int age, workexp;                               // Declearation of integer
-        string name, company, city, yes;             // Declearation of strings, so i can Direct initialze
+       string yes;                      // Decleartion 
+        cout<<"This is User input Prog, Plz type yes\n";        // Dispaly OP 
+        cin>>yes;                               // Take User input.
         
-        cout<<"This is User input Prog, Plz type yes\n";
-        cin>>yes;
-        
-        cout<<"Enter your name  : \n";          // Asking the Question- Dispaly OP
-        getline(cin>>std::ws, name);            // majorly Cin is used if there is no space.
-        cout<<"Your Age : \n" ;                         // Age 
-        cin>>age;                                                       // Enter the Age in OP
-        cout<<"Enter your Company Details  :\n";        
-        getline(cin>>std::ws, company );        // getline allows to take input of may words. using -ws 
-        cout<<"Work Exp  :\n"; cin>>workexp;  // other way but I do not recomend it.
-        cout<<"Enter the City name  : ";
-        getline(cin>>std::ws, city);                    // WS is imp bcz it clears Buffer of the line whiteSpace
+        string fn, mn, sn;      
+        cout<<"Type and enter - firstname, middle name, surname\n";
+        cin>>fn>>mn>>sn;                // Multiple Input after each space it will take new input.
 
-cout<<"-------- == Your Details ==------------------\n";
-        cout<<"Name : "<<name<< endl;
-        cout<<"age : "<< age<<endl;
-        cout<<"Company : "<<company<< endl;
-        cout<<"Work Exp : "<< workexp<<endl;
-        cout<<"City : "<< city<<endl;
-        cout<<"------== End ==----------\n"<<endl;
-
+        cout<<"First Name: "<<fn <<" Midle Name: "<<mn<<" Surname : "<<sn<<endl;
 
         return 0;
 }
