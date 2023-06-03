@@ -7,7 +7,7 @@ using std::endl;
 
 
 int main(){
-       string yes;                      // Decleartion 
+       string yes;                      // Decleartion later it can be initialize the variable.
         cout<<"This is User input Prog, Plz type yes\n";        // Dispaly OP 
         cin>>yes;                               // Take User input.
         
