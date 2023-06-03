@@ -10,13 +10,13 @@ int age;
 cout<<"Enter the age : ";
 cin>>age;
 
-        if (age>=100){
+        if (age>=60){
                 cout<<"You Need to rest. ";
         }
         else if(age>=18){
                 cout<<"Your are Qualified 18+ Club";
         }
-        else if(age<18){
+        else if(age<=17){
                 cout<<"You are not Qualified Grow up";
         }
         else{
