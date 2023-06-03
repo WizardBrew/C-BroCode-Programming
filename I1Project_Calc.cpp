@@ -11,10 +11,11 @@ int main( ){
         double secondnum;
         double result;
 
-        cout<< "Enter the first number\n";
+        cout<< "Enter the first number -\n  ";
         cin>>firstnum; 
+        cout<<"  ";
         cin>>op;
-        cout<<"Enter second number\n";
+        cout<<" Enter second number -\n ";
         cin>>secondnum;
         
 
