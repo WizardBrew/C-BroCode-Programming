@@ -12,8 +12,8 @@ int main(){
         const double PI = 3.14159;                   // When you specify const the Value cannot be changed of Variable.
                                                                         // Const should be more often use if needed for better program
 
-        std::cout<<x <<std::endl;
-        std::cout<<y <<std::endl;
+        std::cout<<x <<std::endl;               //we can ignore STD:: with a short trick if you need. 
+        std::cout<<y <<std::endl;               //in next program you can see how
         std::cout<<z <<std::endl;
         std::cout<<m <<std::endl;
         std::cout<<a <<std::endl;
