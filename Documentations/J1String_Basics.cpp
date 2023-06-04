@@ -3,13 +3,13 @@
 using std::cout;
 using std::string;
 using std::cin;
-using std::endl;
+using std::endl;        
 
 int main( ){
         string name;                    // Validate Lendth
         string profile;                 // empty or not
         string city;                        // clear
-        name;                      //append 
+        name;                           //append 
 
         cout<<"Enter your Full Name : \n";
         std::getline(cin, name);
