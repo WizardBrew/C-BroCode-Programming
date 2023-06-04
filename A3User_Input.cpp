@@ -14,6 +14,7 @@ int main( ){
         
         cout<<"Enter your name  : \n";                          // Asking the Question- Dispaly OP
         getline(cin>>std::ws, name);                              // majorly Cin is used if there is no space.
+        std::getline(cin, name);                         // ------ Methor 2 getline(cin, name) or (cin>>std::Ws, name)
         cout<<"Your Age : \n" ;                                          // Age 
         cin>>age;                                                                 // Enter the Age in OP
         cout<<"Enter your Company Details  :\n";        
