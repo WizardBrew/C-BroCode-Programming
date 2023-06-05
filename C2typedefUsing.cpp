@@ -7,9 +7,9 @@
 // typedef char grade_t;
 //=====  Comment down Above Method one or method 2  Result same==============//
                 //Method -- 2
-        using name_t = std::string;
-        using age_t = int;
-        using workExp_t = float;
+        using name_t = std::string;                     // by using we can use the variable  assignment 
+        using age_t = int;                                      // it can be any variable assign it using xyz = string 
+        using workExp_t = float;                        // this above xyz will be string data type.
         using grade_t = char;
 
 int main(){
