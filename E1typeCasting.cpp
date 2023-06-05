@@ -12,8 +12,8 @@ int main(){
         std::cout<<(char)y <<std::endl;
         std::cout<<(char)  100 <<std::endl;
  //------------------------------------------------------//
-        int correct = 8;                        // Answers 8 correct
-        int questions = 10;                     // Questions 10
+        int correct = 8;                        // Answers 8 correct which is int datatype
+        int questions = 10;                     // Questions 10 which is int data type
 
         double score = (double)correct/questions *100;          // 8/100 = 0.8 as its int it shows = 0
                                                                                                                 // but casting one of them in double will work 
