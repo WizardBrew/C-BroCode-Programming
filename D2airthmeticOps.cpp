@@ -7,7 +7,7 @@
                         // Addition or sub
 
 int main(){
-        int student = 6 - 5 + 4 * 3 / 2 ;
+        int student = 6 - 5 + 4 * 3 / 2 ;               // The belopw step for Demo how it works
         
         // int student = 6 - 5 + 4 * 3 / 2;
         // int student = 6 - 5 +  "12" / 2;                // step 1
