@@ -13,7 +13,7 @@ int main( ){
                 cout<<"Its Still Empty";
         }
         else{ 
-        cout<<name;
+        cout<<"Data found";
         } 
 return 0;
 }
