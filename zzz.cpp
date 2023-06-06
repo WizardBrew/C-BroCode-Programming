@@ -6,10 +6,10 @@ using std::cin;
 using std::endl;
 
 int main( ){
-        string name =  "Wizard";
+        string name =  "WizardBrew";
         string name2 = "Brew";
         
-        name.begin();
+        name.erase(0, 6);
         cout<<name;
 return 0;
 }
