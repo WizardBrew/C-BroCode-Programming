@@ -7,6 +7,8 @@ using std::endl;
 
 int main( ){
         string name = "WizardBrew";
+        cout<<"Enter the name: ";
+        getline(cin, name);
 
         cout<<name.erase(0, 6 );  // Delete the char from 0 to 6.
 
