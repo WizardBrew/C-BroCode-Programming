@@ -6,7 +6,11 @@ using std::cin;
 using std::endl;
 
 int main( ){
-        string name = "WizardBrew";
+        string name ;  //  = "WizardBrew";
+
+        cout<<"Enter the name: ";
+        getline(cin, name);
+        
         cout<<name.find("B");           // find (the dat want to find) eg : 'B' or "B"  
                                                                 //can find "Brew" but shows first char index
         
