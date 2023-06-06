@@ -9,8 +9,12 @@ int main( ){
         string name =  "WizardBrew";
         string name2 = "Brew";
         
-        name.erase(0, 6);
+        if(name.empty()){
+                cout<<"Its Still Empty";
+        }
+        else{ 
         cout<<name;
+        } 
 return 0;
 }
 
