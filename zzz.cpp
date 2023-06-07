@@ -6,13 +6,9 @@ using std::cin;
 using std::endl;
 
 int main( ){
-        string name =  "WizardBrew";
-        string name2 = "Brew";
+        string name ;
+  
         
-        name.clear();
-        name2.erase(1,2);
-        cout<<name;
-        cout<<name2;
         
        
 return 0;
