@@ -8,7 +8,11 @@ using std::endl;
 int main( ){
         string name ;
   
-        
+        while(name.empty()){
+                cout<<"Its Empty Please Enter your name : ";
+                getline(cin, name);
+        }
+        cout<<"Hey - "<<name;
         
        
 return 0;
