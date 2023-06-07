@@ -9,12 +9,12 @@ int main( ){
         string name =  "WizardBrew";
         string name2 = "Brew";
         
-        if(name.empty()){
-                cout<<"Its Still Empty";
-        }
-        else{ 
-        cout<<"Data found";
-        } 
+        name.clear();
+        name2.erase(1,2);
+        cout<<name;
+        cout<<name2;
+        
+       
 return 0;
 }
 
