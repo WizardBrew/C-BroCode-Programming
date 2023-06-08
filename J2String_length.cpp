@@ -10,7 +10,7 @@ int main( ){
 
         cout<<"Enter the name: ";
         getline(cin, name);
-        
+         
         cout<<name.length();            //length (Empty)        as it shows the length 
 
 return 0;
