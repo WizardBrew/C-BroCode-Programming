@@ -4,7 +4,7 @@ using std::cout;
 using std::string;
 using std::cin;
 using std::endl;
-
+        
 int main( ){
         int a;                                  // int decleare
         int num =1;                     // declear and initilize the starting point
