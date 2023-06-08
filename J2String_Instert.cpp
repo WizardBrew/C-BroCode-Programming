@@ -7,7 +7,7 @@ using std::endl;
 
 int main( ){
         string name;            //  = "WizarBrew";
-
+        
         cout<<"Enter the name: ";
         getline(cin, name);
 
