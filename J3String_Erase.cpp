@@ -12,6 +12,6 @@ int main( ){
 
         // cout<<name.erase(0, 6 );  // Delete the char from 0 to 6.
         cout<<name.erase(5, 8 );  // Delete the char from 0 to 6.
-
+ 
 return 0;
 }
