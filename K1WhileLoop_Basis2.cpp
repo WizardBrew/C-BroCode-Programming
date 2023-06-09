@@ -7,7 +7,7 @@ using std::endl;
 
 int main( ){
         int a;
-        cout<<"Enter the Number you want to print : ";
+        cout<<"Enter the Number you want to print : "; 
         cin>>a;
 
         while(a<=10){
