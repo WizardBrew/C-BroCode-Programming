@@ -6,8 +6,14 @@ using std::cin;
 using std::endl;
 
 int main( ){
-       
-  
+       for(int a=5; a>=1; a--){
+                for(int j = 1; j<=8; j++){
+                        cout<<" * ";
+                }
+        
+       }
+       cout<<""<<endl;
+         
       
         
        
