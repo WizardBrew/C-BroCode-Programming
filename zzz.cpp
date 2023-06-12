@@ -6,18 +6,20 @@ using std::cin;
 using std::endl;
 
 int main( ){
-       for(int a=5; a>=1; a--){
-                        cout<<" * ";
-                for(int b ; b>=a; b++ ){
-                        cout<<"%";
+
+        int i, j, n = 5;
+        cout << "Enter the number of rows: ";
+        // cin >> n;
+        for(i=0; i<=n; i++)
+        { 
+                for(j=1; i>=j; j++)
+                {
+                cout << "*";
+               
                 }
-       }
-       cout<<""<<endl;
-         
-      
-        
-       
-return 0;
+                cout << endl;
+        }
+        return 0;
 }
 
 // void ClearMethod(){
