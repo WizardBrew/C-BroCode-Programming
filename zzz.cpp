@@ -6,17 +6,22 @@ using std::cin;
 using std::endl;
 
 int main( ){
-        string name ;
+       
   
-        while(name.empty()){
-                cout<<"Its Empty Please Enter your name : ";
-                getline(cin, name);
-        }
-        cout<<"Hey - "<<name;
+      
         
        
 return 0;
 }
+
+// void ClearMethod(){
+//          string name ;
+//           while(name.empty()){
+//                 cout<<"Its Empty Please Enter your name : ";
+//                 getline(cin, name);
+//         }
+//         cout<<"Hey - "<<name;
+// }
 
 // void swapstring(){
 //          string name =  "Wizard";
