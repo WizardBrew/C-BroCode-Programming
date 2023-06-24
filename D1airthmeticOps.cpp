@@ -14,7 +14,7 @@ int main(){
         student = student * 2;                  // Multi Method 1 and 2
         student*=2;
 
-        student = student /= 2;                 // Division Method 1 and 2
+        student = student /= 2;                  // Division Method 1 and 2
         student /=2;
 
         student = student % 2;                  // General term - Reminder method 1 and 2
