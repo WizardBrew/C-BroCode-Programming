@@ -12,7 +12,7 @@ int main( ){
                         // cout<<"Reached Unlucky \n"; 
                         // break;
                         continue;
-                }
+                } 
                 cout<<i<<'\n';
         }
 
