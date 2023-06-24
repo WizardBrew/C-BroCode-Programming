@@ -4,7 +4,7 @@ using std::cout;
 using std::string;
 using std::cin;
 using std::endl;
-
+ 
 int main( ){
         for (int i = 0; i <=10 ; i++) {                 // index i is 0 ; index i greater or equal till 10; kepp adding index ++
                 cout<<i<<" Happy New Year! \n";         // if i is not 10 print go back and check the index again.
