@@ -1,7 +1,7 @@
 #include<iostream>
 
 using std::cout;
-using std::string;
+using std::string; 
 using std::cin;
 using std::endl;
  
