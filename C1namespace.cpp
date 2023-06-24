@@ -12,7 +12,7 @@ namespace{
         bool value = false;}
 int main(){
         using namespace second;                          // If this is mentioned then Value of first will over write       
-        float value = 50.80;
+        double value = 50.8000;
 
         std::cout<<value  << std::endl; 
 
