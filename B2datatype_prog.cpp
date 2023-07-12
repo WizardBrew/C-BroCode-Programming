@@ -19,7 +19,7 @@ int main(){
 
         // ----==You can Ignore this part ill cover it later.
         std::cout<<" \n--------------\n ";
-        std::cout.precision(7); 
+        std::cout.precision(8); 
         std::cout<<salary;
         
         std::cout<<"\n --------------\n ";
