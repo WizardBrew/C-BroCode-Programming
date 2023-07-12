@@ -8,7 +8,7 @@ using std::endl;
 
 int main( ){
         
-        srand(time(NULL));              // pseduo random Numbers = Not Truely Random (But Close)
+        // srand(time(NULL));              // pseduo random Numbers = Not Truely Random (But Close)
                 //  int num =rand() ;                       // Usually Genrates long code so can we take reminder of 6, 20 or 100
 
         int num =(rand() %6) + 1 ;
