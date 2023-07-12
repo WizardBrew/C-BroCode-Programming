@@ -8,15 +8,15 @@ using std::endl;
 int main( ){
 
                 // std::srand(static_cast<unsigned>(std::time(nullptr)));
-        srand(time(0));
+        // srand(time(0));
         int randnum = rand() % 5 + 1;
 
         switch (randnum){
         case 1: 
-                cout<<"You have a best Career \n";
+                cout<<randnum<<"  You have a best Career \n";
                 break;
         case 2: 
-                cout<<"You will Get Enough of Money \n";
+                cout<<randnum<<"  You will Get Enough of Money \n";
                 break;
         case 3: 
                 cout<<"Amazing Luxury Life \n";
