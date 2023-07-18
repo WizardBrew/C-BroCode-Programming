@@ -6,7 +6,7 @@ using std::string;
 using std::cin;
 using std::endl;
 
-void showBalance(double balance);
+double showBalance(double balance);
 double deposit();
 double withdrawal(double balance);
 
@@ -46,9 +46,9 @@ int main( ){
         return 0;
 }
 
-void showBalance(double balance){
+double showBalance(double balance){
         cout<<"Your Balance is - $ "<< std::setprecision(2)<<std::fixed<<balance<<'\n';
-        
+        return 0;
 }
 double deposit(){
         double amount = 0;
