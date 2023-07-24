@@ -6,6 +6,12 @@ using std::cin;
 using std::endl;
 
 int main( ){
+char alpha = 'A';
+char alpha1 = 'B';
+alpha = tolower(alpha);
+alpha1 = toupper(alpha1);
+cout<<alpha<<'\n';
+cout<<alpha1<<'\n';
 
 string str = "Parvez";
 for(int i ; i<str.length(); i++){               // here we can take "for i" is blank but not in sep func
