@@ -72,35 +72,35 @@ void showChoice(char choice){
 void chooseWinner(char player, char computer){
         switch(player){
                 case 'r' : if(computer == 'r'){
-                        cout<<" Its tie -- case 1";
-                }
-                else if(computer == 'p'){
-                        cout<<" You Loose --case1";
-                }
-                else {
-                        cout<<" you Win -- case1";
-                }
+                                cout<<" Its tie -- case 1";
+                                }
+                                else if(computer == 'p'){
+                                        cout<<" You Loose --case1";
+                                }
+                                else {
+                                        cout<<" you Win -- case1";
+                                }
                 break;
 
                 case 'p' : if(computer == 'r'){
-                        cout<<" you Win -- case2";
-                }
-                else if(computer == 'p'){
-                        cout<<" Its tie -- case 2";
-                }
-                else {
-                        cout<<" You Loose --case2";
-                }
+                                cout<<" you Win -- case2";
+                                }
+                                else if(computer == 'p'){
+                                        cout<<" Its tie -- case 2";
+                                }
+                                else {
+                                        cout<<" You Loose --case2";
+                                }
                 break;
 
                 case 's' : if(computer == 'r'){
-                        cout<<" You Loose --case3";
-                }
-                else if(computer == 'p'){
-                        cout<<" you Win -- case3";
-                }
-                else {
-                        cout<<" Its tie -- case 3";
+                                cout<<" You Loose --case3";
+                                }
+                                else if(computer == 'p'){
+                                        cout<<" you Win -- case3";
+                                }
+                                else {
+                                        cout<<" Its tie -- case 3";
                 }break;
         }
 
