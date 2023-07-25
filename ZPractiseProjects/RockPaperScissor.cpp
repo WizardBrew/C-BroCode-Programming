@@ -9,7 +9,7 @@ using std::endl;
 char playerChoice();
 char computerChoice();
 void showchoice(char choice);
-void showWinner();
+void showWinner(char player, char computer);
 
 int main( ){
         char player;
@@ -21,11 +21,9 @@ int main( ){
                 computer = computerChoice();
                 cout<<"\nComputer Choice - "<<computer;
                 cout<<"\n-------------------\n";
-        
+                showWinner( player, computer);
 
-                
- 
-return 0;
+        return 0;
 }
 
 char playerChoice(){
@@ -62,13 +60,42 @@ void showchoice(char choice){
                 case 's' : cout<<" You Choose -=Scissor=- ";
                         break;
         }
-
-       
 }
 
-void showWinner(){
+void showWinner(char player, char computer ){
+        switch(player){
+                        case 'r' : if(computer == 'r'){
+                                                cout<<"Its Tie";
+                                        }
+                                        else if(computer == 's'){
+                                                cout<<" your loose";
+                                        }
+                                        else{
+                                                cout<<" You Win ";
+                                        }
+                                break;
 
-
+                        case 's' : if(computer == 'r'){
+                                                cout<<" You Win ";
+                                        }
+                                        else if(computer == 's'){
+                                                cout<<"Its Tie";
+                                        }
+                                        else{
+                                                cout<<" your loose";
+                                        }
+                                break;
+                        case 'p' : if(computer == 'r'){
+                                                cout<<" your loose";
+                                        }
+                                        else if(computer == 's'){
+                                                cout<<" You Win ";
+                                        }
+                                        else{
+                                                cout<<"Its Tie";
+                                        }
+                                break;
+        }
 }
 
 
