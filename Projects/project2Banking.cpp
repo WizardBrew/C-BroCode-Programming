@@ -56,7 +56,7 @@ double deposit(){
         cin>>amount;
         
         if(amount>0){
-                 return amount;
+                return amount;
         }
         else{
                 cout<<"You are not entering the Valid Amount ";
