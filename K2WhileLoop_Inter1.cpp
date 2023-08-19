@@ -8,7 +8,7 @@ using std::endl;
 int main( ){
         string name;
 
-        while(1==1){
+        while(1<=10){
                 cout<<"Wizard \t Brew ";
                 cout<<"Wizard \b Brew ";
         }
