@@ -19,5 +19,6 @@ return 0;
 void happyBirthday(){           // Creating Happybirthday Function
         cout<<"Happy Birthday \n";
         cout<<"Happy Birthday \n";
+        
 
 }

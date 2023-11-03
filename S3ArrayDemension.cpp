@@ -1,3 +1,4 @@
+
 #include<iostream>
 
 using std::cout;
@@ -7,7 +8,7 @@ using std::endl;
 
 void sort(int array[], int size);
 
-int main( ){
+int main( ){ 
 
         int array[] = {10 , 1 , 9 , 2 , 8 , 3 , 7 , 4 , 6 , 5};         // My Unsorted Array
                 int size = sizeof(array)/sizeof(array[0]);      // Defining the size of array or it will be pointer 

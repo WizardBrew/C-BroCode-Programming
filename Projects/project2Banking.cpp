@@ -11,7 +11,7 @@ double deposit();
 double withdrawal(double balance);
 
 int main( ){
-       double balance = 786.786 ;
+        double balance = 786.786 ;
         int choice = 0;
 
         do{      
