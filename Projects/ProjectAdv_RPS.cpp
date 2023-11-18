@@ -57,7 +57,7 @@ char computerChoice(){
 }
 
 void showChoice(char choice){
-          switch(choice){
+        switch(choice){
                         case 'r' : cout<< 'r';
                                 break;
                         case 'p' : cout<< 'p';
