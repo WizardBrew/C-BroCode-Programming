@@ -9,7 +9,7 @@ using std::endl;
 void displayBalance(double balance);
 double deposit();
 double withdraw(double balance);
-string account(string name, string last_name, int age, int ac_No);
+// string account(string name, string last_name, int age, int ac_No);
 
 int main( ){
         double balance = 100;
@@ -18,13 +18,17 @@ int main( ){
         int age,  ac_No;
 
 
-         do{       
-                account(name, last_name, age,  ac_No);                
+        do{       
+                // account(name, last_name, age,  ac_No);                
                 cout<<"\n===========================\n";
                 cout<<"|   --== ICICI Bank ==--   |    ";
                 cout<<"\n===========================\n";
                 cout<<" Enter the Choice - ";
                 cin>>choice;
+                // if (cin.fail()) {
+                // cin.clear();  // Clear error flags
+                // cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Clear the input buffer
+                // }
                 cin.clear();
                 fflush(stdin);
         
