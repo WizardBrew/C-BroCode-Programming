@@ -15,13 +15,13 @@ void albs(){
         cout<<album[1] <<"\n";
         cout<<album[2] <<"\n";
 }
- void musics(){
+void musics(){
         string music[] = {"Aatif Aslam", "KK", "Rahat Fathe", "Darshan Rawal", "Sonu Nigam"};
 
         cout<<music[0] << '\n';
         cout<<music[1] << '\n';                
         cout<<music[2] << '\n';        
- }
+}
 
 int main( ){ 
 
