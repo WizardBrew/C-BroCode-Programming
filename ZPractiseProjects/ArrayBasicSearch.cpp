@@ -14,7 +14,7 @@ int main( ){
         int index;
         int myNum;
         int mysrch;
-        cout<<'\n';
+        cout<<"size =" <<size<<'\n';
         cout<<"There are total -= " <<size<<" =- Elements in Array \n -- ";
 
         cin >> myNum;
