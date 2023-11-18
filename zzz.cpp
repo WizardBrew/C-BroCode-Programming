@@ -5,22 +5,45 @@ using std::string;
 using std::cin;
 using std::endl;
 
-int main( ){
+void dataBase();
 
-        int i, j, n = 5;
-        cout << "Enter the number of rows: ";
-        // cin >> n;
-        for(i=0; i<=n; i++)
-        { 
-                for(j=1; i>=j; j++)
-                {
-                cout << " *";
-               
-                }
-                cout << endl;
-        }
-        return 0;
+int main(){
+        cout<<"Arrays DataBase";
+        
+
+        dataBase();
+
+
 }
+
+void dataBase(){
+        string name[] = {"Wizard", "Warrior", "Developer", "Gammer", "Hacker"};
+        // int size = sizeof(name)/sizeof(string);
+        // for(int i =0; i<=size;i++){
+        // cout<<name[i]<<'\n';
+        // }
+        
+
+
+
+}
+
+
+// int main( ){
+
+//         int i, j, n = 5;
+//         cout << "Enter the number of rows: ";
+//         // cin >> n;
+//         for(i=0; i<=n; i++)
+//         { 
+//                 for(j=1; i>=j; j++)
+//                 {
+//                 cout << " *";
+//                 }
+//                 cout << endl;
+//         }
+//         return 0;
+// }
 
 // void ClearMethod(){
 //          string name ;
