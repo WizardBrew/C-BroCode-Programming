@@ -37,7 +37,7 @@ double tables(int num0, int num1){
                                         cout<<num1 <<" x " <<i <<" = " <<i*num1<<"      || ";
                                 }cout<<endl;
                         }
-                 }cout<<" Printed \n";
+                }cout<<" Printed \n";
         
         return 0;
 
