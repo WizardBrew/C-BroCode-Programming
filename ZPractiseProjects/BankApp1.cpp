@@ -3,14 +3,14 @@
 
 using std::cout;
 using std::string;
-using std::cin;
+// using std::cin;
 using std::endl;
 // Required Basic things - Balance - Deposit - Withdraw
 void displayBalance(double balance);
 double deposit(double balance);
 double withdraw(double balance);
 
-int main( ){
+int main(){
         // balance - my choice
         double balance= 100;
         int mychoice =0;
@@ -24,8 +24,12 @@ int main( ){
                 cout<<"    3 : Withdraw   \n";
                 cout<<"    4 : Exit   \n";
                 cout<<"==================================\n";           
-                cin>>mychoice;          // take my choice 
-                cin.clear();                    // clears Input
+                std::cin>>mychoice;          // take my choice 
+                // if (cin.fail()) {
+                // cin.clear();  // Clear error flags
+                // cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Clear the input buffer
+        // }
+                std::cin.clear();                    // clears Input
                 fflush(stdin);                   // Flushes the stream and space
 
                 switch (mychoice){              // entering the switch as displayed 
@@ -34,13 +38,10 @@ int main( ){
                                 break;
                         case 2 : balance += deposit(balance);   // Logic for deposit
                                 displayBalance(balance);                // display my bal
-                        
                                 break;
                         case 3: balance -=withdraw(balance);    // logic for withdraw
                                 displayBalance(balance);                    // my bal
-
                                 break;
-
                         case 4: cout<<"Thanks for Visiting State Bank \n";      //exit
                                 break;
 
@@ -58,7 +59,7 @@ void displayBalance(double myBalance){          //bal func
 double deposit(double myBalance){       // Deposit Func
         double amount= 0;                       // Local var
         cout<<"Enter the amount you want to Deposit - ";
-        cin>>amount;            // take input as local
+        std::cin>>amount;            // take input as local
         if(amount<0){                   // define condition
                 cout<<"Your Input was Invalid ";
                 return 0;               // if condition is meet return 0 ----- return is needed as its not -- void func    
@@ -69,7 +70,7 @@ double deposit(double myBalance){       // Deposit Func
 double withdraw(double mybalance){      // logic for withdraw
         double amount = 0;              // local var
         cout<<"Enter the amount you want to Withdraw - ";
-        cin>>amount;            // input
+        std::cin>>amount;            // input
         if(amount>mybalance){                   // if condition is meet return 0 ----- return is needed as its not -- void func    
                 cout<<"You do not have sufficient Balance \n";
                 return 0;
